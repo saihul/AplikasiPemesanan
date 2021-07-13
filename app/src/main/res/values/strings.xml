@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Aplikasi Pemesanan</string>
+    <string name="menu_fragment">Menu</string>
+    <string name="data_fragment">Data History</string>
+    <string name="hubungi_fragment">Hubungi</string>
+    <string name="setting">Pengaturan</string>
+    <string name="titlemenu">Menu Input</string>
+    <string name="data_transaksi">Data Transaksi</string>
+    <string name="data_Pengeluaran">data_Pengeluaran</string>
+    <string name="data_Pembayaran">data_Pembayaran</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="15dp"
+    android:orientation="vertical"
+    app:cardElevation="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <Button
+            android:id="@+id/btn_dataTransaksi"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/data_transaksi"
+            android:textColor="@color/white"
+            app:icon="@drawable/ic_data_transaksi" />
+
+        <Button
+            android:id="@+id/btn_dataPengeluaran"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/data_Pengeluaran"
+            android:textColor="@color/white"
+            android:layout_marginVertical="10dp"
+            app:icon="@drawable/ic_pengeluaran" />
+
+        <Button
+            android:id="@+id/btn_dataPembayaran"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/data_Pembayaran"
+            android:textColor="@color/white"
+            app:icon="@drawable/ic_pembayaran" />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+

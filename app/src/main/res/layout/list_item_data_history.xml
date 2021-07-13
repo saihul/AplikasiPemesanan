@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvPanjang"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvLebar"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvQuantity"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btnDelete"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="290dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_deletes" />
+
+    <ImageView
+        android:id="@+id/btnEdit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="240dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_edit" />
+
+</androidx.cardview.widget.CardView>
